@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2748a96-d71b-47d0-b9e8-cfa5d94b6c46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/GymUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/TrainerDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Assessments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Trainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/accountDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/trainerMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/trainerDashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/trainerViewMember.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/seticon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/seticon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/trainerLogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/userpage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/About.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/mainpanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b22tcBcDXD8teAtlnfYCNXpl29" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/app/views/Images" />
+      <recent name="$USER_HOME$/dev/play-1.5.3/modules/docviewer/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2748a96-d71b-47d0-b9e8-cfa5d94b6c46" name="Default Changelist" comment="" />
+      <created>1587816085183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587816085183</updated>
+      <workItem from="1587816092987" duration="4116000" />
+      <workItem from="1587825166304" duration="22000" />
+      <workItem from="1587825210357" duration="5891000" />
+      <workItem from="1587907608340" duration="11240000" />
+      <workItem from="1588708002475" duration="106000" />
+      <workItem from="1589048744287" duration="2431000" />
+      <workItem from="1589114698297" duration="36047000" />
+      <workItem from="1589745908131" duration="54131000" />
+      <workItem from="1590266597085" duration="24519000" />
+      <workItem from="1590860216467" duration="357000" />
+      <workItem from="1590941777787" duration="419000" />
+      <workItem from="1590958331973" duration="5696000" />
+      <workItem from="1591192947414" duration="10023000" />
+      <workItem from="1591209525235" duration="7057000" />
+      <workItem from="1591265673046" duration="8910000" />
+      <workItem from="1591282475184" duration="5403000" />
+      <workItem from="1591296912726" duration="6103000" />
+      <workItem from="1591303047881" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="117" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589833841832">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.859/1440.-37.1920.1057@0.0.1440.859" timestamp="1589833739850" />
+    <state x="184" y="117" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-60.1920.1080@0.0.1440.900" timestamp="1589833841832" />
+    <state x="425" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1589831323279">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="425" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900/1440.-60.1920.1080@0.0.1440.900" timestamp="1589831323279" />
+    <state x="425" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900@0.0.1440.900" timestamp="1589813786284" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591287977448">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.-37.1920.1057@0.0.1440.900" timestamp="1591286582840" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.-60.1920.1080@0.0.1440.900" timestamp="1591287977448" />
+    <state x="208" y="23" width="1024" height="836" key="SettingsEditor" timestamp="1587911102557">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="208" y="23" width="1024" height="836" key="SettingsEditor/0.23.1440.836/1440.-37.1920.1057@0.23.1440.836" timestamp="1587911102557" />
+    <state x="397" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1591010996178">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.-60.1920.1080@0.0.1440.900" timestamp="1591010996178" />
+    <state x="397" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.836/1440.-37.1920.1057@0.23.1440.836" timestamp="1587907609374" />
+    <state x="397" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.837/1440.-37.1920.1057@0.23.1440.837" timestamp="1587816091477" />
+    <state x="389" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587823882479">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="389" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.837/1440.-37.1920.1057@0.23.1440.837" timestamp="1587823882479" />
+    <state x="378" y="198" width="683" height="486" key="find.popup" timestamp="1587824528358">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="378" y="198" width="683" height="486" key="find.popup/0.23.1440.836/1440.-37.1920.1057@0.23.1440.836" timestamp="1587824528358" />
+    <state x="97" y="63" key="new project wizard" timestamp="1587909838305">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="97" y="63" key="new project wizard/0.23.1440.836/1440.-37.1920.1057@0.23.1440.836" timestamp="1587909838305" />
+    <state x="426" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1589727520371">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="426" y="73" key="refactoring.ChangeSignatureDialog/0.0.1440.900/1440.-60.1920.1080@0.0.1440.900" timestamp="1589727520371" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591191711856">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-60.1920.1080@0.0.1440.900" timestamp="1591191711856" />
+  </component>
+</project>

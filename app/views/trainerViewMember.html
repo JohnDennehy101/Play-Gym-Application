@@ -1,0 +1,138 @@
+#{extends 'main.html' /}
+#{set title:'Dashboard' /}
+
+#{trainerMenu id:"dashboard"/}
+
+
+<section class="ui raised segment">
+    <div class="ui four column stackable center aligned grid">
+
+        <div class="middle aligned row">
+            <!--Start of Column-->
+            <div class="column">
+                <div class="ui icon header">
+                    <i class="user icon"></i>
+                ${member.name}
+                </div>
+
+            </div>
+            <!--End of Column-->
+
+            <!--Start of Column-->
+            <div class="column">
+                <div class="ui icon header">
+                #{if isIdealWeight == true}
+                    <i class="tachometer alternate icon" style="color: green;"></i>
+                    <p class="ui big text">IDEAL WEIGHT</p>
+                #{/if}
+                #{elseif isIdealWeight == false}
+                    <i class="tachometer alternate icon" style="color: red;"></i>
+                    <p class="ui big text">NOT IDEAL WEIGHT</p>
+                #{/elseif}
+                </div>
+
+            </div>
+            <!--End of Column-->
+            <div class="column">
+
+                <div class="ui items">
+                    <div class="item">
+                        <div class="middle aligned content">
+                            <div class="header">
+                                <i class="big heartbeat icon" style="margin-bottom: 10px;"></i>
+
+                                <span class="ui big text">${bmi}</span>
+
+                                <p class="ui big text" style="padding-left: 25px;">BMI</p>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Start of Column-->
+            <div class="column">
+                <div class="ui icon header">
+                    <i class="user md icon"></i>
+                ${bmiCategory}
+
+                </div>
+
+            </div>
+            <!--End of Column-->
+        </div>
+    </div>
+
+
+</section>
+
+<section class="ui raised segment">
+#{list items:assessments, as:'session'}
+    <table class="ui celled table">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Weight</th>
+            <th>Chest</th>
+            <th>Thigh</th>
+            <th>Upper Arm</th>
+            <th>Waist</th>
+            <th>Hips</th>
+            <th>Comments</th>
+        </tr>
+
+        </thead>
+        <tbody>
+
+        <tr>
+
+            <td>
+            ${session.timestamp}
+            </td>
+
+            <td>
+            ${session.weight}
+            </td>
+            <td>
+            ${session.chest}
+            </td>
+            <td>
+            ${session.thigh}
+            </td>
+            <td>
+            ${session.upperArm}
+            </td>
+            <td>
+            ${session.waist}
+            </td>
+            <td>
+            ${session.hips}
+            </td>
+            <td>
+            ${session.comment}
+            </td>
+
+        </tr>
+
+        </tbody>
+
+    </table>
+    <form class="ui form" action="/member/${member.id}/${session.id}" method="POST">
+        <div class="field">
+            <label>Comments</label>
+            <input type="text" name="comment" value="${session.comment}">
+        </div>
+
+        <button class="ui blue submit button">Update</button>
+    </form>
+#{/list}
+</section>
+
+
+
+
