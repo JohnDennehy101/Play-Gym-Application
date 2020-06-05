@@ -34,3 +34,6 @@ There are two types of user: Trainers & Members
 **Test Trainer Details**
 - Email: trainer@gmail.com
 - Password: trainer
+
+- Email: trainer2@gmail.com
+- Password: trainer2
