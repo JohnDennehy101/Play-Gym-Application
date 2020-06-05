@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2748a96-d71b-47d0-b9e8-cfa5d94b6c46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/tags/noAssessmentsCompleted.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/returnToTrainerDashBoard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebDevelopmentAssignment2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/WebDevelopmentAssignment2.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/memberDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/memberDashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/listAssessmentsTrainerView.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listAssessmentsTrainerView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/trainerViewMember.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/trainerViewMember.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/TrainerDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/TrainerDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +92,7 @@
       <workItem from="1591282475184" duration="5403000" />
       <workItem from="1591296912726" duration="6103000" />
       <workItem from="1591303047881" duration="59000" />
-      <workItem from="1591305948882" duration="15209000" />
+      <workItem from="1591305948882" duration="17621000" />
     </task>
     <servers />
   </component>

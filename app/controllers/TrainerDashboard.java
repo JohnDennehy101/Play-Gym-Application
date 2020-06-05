@@ -134,8 +134,8 @@ public class TrainerDashboard extends Controller {
     public static void deleteMember(Long id) {
         Trainer trainer = Accounts.getLoggedInTrainer();
         Member member = Member.findById(id);
-        List<Member> members = trainer.members;
-        trainer.members.remove(member);
+        List<Member> members = Member.findAll();
+        members.remove(member);
         trainer.save();
         member.delete();
         for (int i = 0; i < members.size(); i++) {

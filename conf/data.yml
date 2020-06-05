@@ -85,3 +85,14 @@ Trainer(tr1):
   - m2
   - m3
 
+Trainer(tr2):
+  email: trainer2@gmail.com
+  password: trainer2
+  members:
+
+
+
+
+
+
+
