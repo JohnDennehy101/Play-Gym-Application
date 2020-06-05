@@ -22,9 +22,25 @@ Members can add and delete assessments from this view.
 
 #{addAssessment assessments: assessments /}
 
-    <!-- The listAssessmentsMemberView component lists all assessments for the member. -->
+    <!--
+    If the number of member assessments is greater than 0,
+    the listAssessmentsMemberView component lists all assessments for the member.
 
-#{listAssessmentsMemberView assessments:assessments /}
+    If the number of member assessments is equal to 0,
+    the noAssessmentsCompleted component displays a message to the user explaining how BMI (Body Mass Index),
+    BMI category and ideal weight indicator were calculated.
+
+     -->
+
+#{if assessments.size() > 0}
+
+    #{listAssessmentsMemberView assessments:assessments /}
+
+#{/if}
+
+#{else}
+    #{noAssessmentsCompleted /}
+#{/else}
 
 </section>
 

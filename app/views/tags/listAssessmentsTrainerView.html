@@ -7,59 +7,72 @@ Each assessment is listed using the {list items} syntax to loop through all asse
 The trainer can add a comment to each assessment.
 After a comment is added, the page is refreshed and the comment is displayed on the relevant assessment.
 
+If no assessments have been completed for the member, a component is displayed to the trainer which explains
+how the BMI (Body Mass Index), BMI category and ideal weight indicator were calculated.
+
+The trainer can return to the list of members by clicking the button at the bottom of the page.
+
 -->
 
 <section class="ui raised segment">
 #{list items:_assessments, as:'session'}
-    <table class="ui celled table">
-        <thead>
-        <tr>
-            <th>Date</th>
-            <th>Weight</th>
-            <th>Chest</th>
-            <th>Thigh</th>
-            <th>Upper Arm</th>
-            <th>Waist</th>
-            <th>Hips</th>
-            <th>Comments</th>
-        </tr>
+    #{if _assessments.size() > 0}
+        <table class="ui celled table">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Weight</th>
+                <th>Chest</th>
+                <th>Thigh</th>
+                <th>Upper Arm</th>
+                <th>Waist</th>
+                <th>Hips</th>
+                <th>Comments</th>
+            </tr>
 
-        </thead>
-        <tbody>
+            </thead>
+            <tbody>
 
-        <tr>
+            <tr>
 
-            <td>
-            ${session.timestamp}
-            </td>
+                <td>
+                ${session.timestamp}
+                </td>
 
-            <td>
-            ${session.weight}
-            </td>
-            <td>
-            ${session.chest}
-            </td>
-            <td>
-            ${session.thigh}
-            </td>
-            <td>
-            ${session.upperArm}
-            </td>
-            <td>
-            ${session.waist}
-            </td>
-            <td>
-            ${session.hips}
-            </td>
-            <td>
-            ${session.comment}
-            </td>
+                <td>
+                ${session.weight}
+                </td>
+                <td>
+                ${session.chest}
+                </td>
+                <td>
+                ${session.thigh}
+                </td>
+                <td>
+                ${session.upperArm}
+                </td>
+                <td>
+                ${session.waist}
+                </td>
+                <td>
+                ${session.hips}
+                </td>
+                <td>
+                ${session.comment}
+                </td>
 
-        </tr>
 
-        </tbody>
+            </tr>
 
-    </table>
+
+            </tbody>
+
+
+        </table>
+
+    #{/if}
+
+
     <form class="ui form" action="/member/${_member.id}/${session.id}" method="POST">
         <div class="field">
             <label>Comments</label>
@@ -70,4 +83,13 @@ After a comment is added, the page is refreshed and the comment is displayed on 
     </form>
 
 #{/list}
+#{else}
+
+    #{noAssessmentsCompleted /}
+
+    #{returnToTrainerDashBoard /}
+
+
+#{/else}
 </section>
+

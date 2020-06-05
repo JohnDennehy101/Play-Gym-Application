@@ -4,6 +4,9 @@ The 'trainerViewMember' view allows trainers to see all assessments for a given 
 
 It is from this view that trainers can add comments for individual assessments.
 
+The trainer can return to the member list view by clicking the 'Return To List Of Members' button at the
+bottom of the page.
+
 -->
 
 #{extends 'main.html' /}
@@ -21,6 +24,18 @@ comments for any assessment.
 -->
 
 #{listAssessmentsTrainerView assessments:assessments, member:member /}
+
+<!--
+If assessments have been completed for the member, the returnToTrainerDashBoard component is displayed which
+includes a button which, when clicked, redirects the trainer back to the list of members.
+
+If statement is included here to avoid duplication of button as button is already displayed on the component
+if no assessments have been completed.
+-->
+
+#{if assessments.size() != 0}
+    #{returnToTrainerDashBoard /}
+#{/if}
 
 
 
