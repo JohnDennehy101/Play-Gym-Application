@@ -1,0 +1,34 @@
+<!--
+
+The member dashboard allows members to see their current BMI (Body Mass Index), BMI category and if they are at the
+ideal weight or not.
+
+It also allows them to see all assessments that have been completed.
+Members can add and delete assessments from this view.
+
+-->
+
+#{extends 'main.html' /}
+#{set title:'Member Dashboard' /}
+
+#{memberMenu id:"dashboard"/}
+<section class="ui raised segment">
+
+    <!-- Header component which displays the member name, BMI, BMI category and if they are at the ideal weight or not  -->
+
+#{dashboardMemberHeaderDetails member:member, bmi:bmi, bmiCategory:bmiCategory, isIdealWeight:isIdealWeight/}
+
+    <!-- The addAssessment component allows members to add a new assessment. This is then displayed on the dashboard -->
+
+#{addAssessment assessments: assessments /}
+
+    <!-- The listAssessmentsMemberView component lists all assessments for the member. -->
+
+#{listAssessmentsMemberView assessments:assessments /}
+
+</section>
+
+
+
+
+

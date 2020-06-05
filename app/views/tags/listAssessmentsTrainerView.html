@@ -1,3 +1,14 @@
+<!--
+
+This component displays the list of member assessments to the trainer (the trainer has selected the
+relevant member by clicking on the member name following login).
+
+Each assessment is listed using the {list items} syntax to loop through all assessments.
+The trainer can add a comment to each assessment.
+After a comment is added, the page is refreshed and the comment is displayed on the relevant assessment.
+
+-->
+
 <section class="ui raised segment">
 #{list items:_assessments, as:'session'}
     <table class="ui celled table">

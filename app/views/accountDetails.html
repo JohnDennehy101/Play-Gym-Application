@@ -1,6 +1,17 @@
+<!--
+
+The 'accountDetails' page allows members to edit their account details.
+
+The user's current details are displayed (apart from password for privacy reasons).
+A number of components are displayed on the page to allow the member to update their profile details.
+Any changes made are reflected in the top section of the page (following successful updates - passwords not displayed
+on the page for security reasons).
+
+-->
+
 #{extends 'main.html' /}
 #{set title:'Edit Details' /}
-#{menu id:"editUserDetails"/}
+#{memberMenu id:"editUserDetails"/}
 <section class="ui raised segment">
     <h2 class="ui header" style="padding-left: 15px; padding-bottom: 10px;">
         Account Settings
@@ -8,12 +19,17 @@
     </h2>
 
     <div class="ui three column divided grid">
+        <!--Start of row-->
         <div class="stretched row">
+            <!--Start of column-->
             <div class="column">
                 <div class="ui segment">
                     <img class="ui image" src="/public/images/userpage.png">
                 </div>
             </div>
+            <!--End of column-->
+
+            <!--Start of column-->
             <div class="column">
                 <div class="ui segment">
 
@@ -38,6 +54,9 @@
 
                 </div>
             </div>
+            <!--End of column-->
+
+            <!--Start of column-->
             <div class="column">
                 <div class="ui segment">
                     <div class="ui horizontal statistics">
@@ -92,13 +111,15 @@
 
                 </div>
             </div>
+            <!--End of column-->
         </div>
+        <!--End of row-->
     </div>
 
 
     <div class="ui two column grid basic middle aligned segment">
+        <!--Start of column-->
         <div class="column">
-
 
             <form class="ui stacked segment form" action="/editAccountName" method="POST">
 
@@ -130,6 +151,9 @@
 
 
         </div>
+        <!--End of column-->
+
+        <!--Start of column-->
         <div class="column">
             <form class="ui stacked segment form" action="/editAccountPassword" method="POST">
 
@@ -160,5 +184,6 @@
             </form>
 
         </div>
+        <!--End of column-->
     </div>
 </section>

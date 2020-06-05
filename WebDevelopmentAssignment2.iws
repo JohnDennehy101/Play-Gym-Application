@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2748a96-d71b-47d0-b9e8-cfa5d94b6c46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/tags/addAssessment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/dashboardMemberHeaderDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/listAssessmentsMemberView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/listAssessmentsTrainerView.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebDevelopmentAssignment2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/WebDevelopmentAssignment2.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/accountDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accountDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/memberDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/addAssessment.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addAssessment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/dashboardMemberHeaderDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/dashboardMemberHeaderDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/listAssessmentsMemberView.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listAssessmentsMemberView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/listAssessmentsTrainerView.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listAssessmentsTrainerView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/memberMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/trainerMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/trainerMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/trainerDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/trainerDashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/trainerViewMember.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/trainerViewMember.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +106,7 @@
       <workItem from="1591282475184" duration="5403000" />
       <workItem from="1591296912726" duration="6103000" />
       <workItem from="1591303047881" duration="59000" />
-      <workItem from="1591305948882" duration="6723000" />
+      <workItem from="1591305948882" duration="11442000" />
     </task>
     <servers />
   </component>

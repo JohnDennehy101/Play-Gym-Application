@@ -26,7 +26,7 @@ public class Dashboard extends Controller {
      * Devine formula) is determined via calls to the relevant static methods in the GymUtility class.
      * <p>
      * The member's assessments, user details, BMI, BMI category and whether the member is at the ideal weight (boolean value)
-     * is passed to the 'dashboard.html' file which is rendered.
+     * is passed to the 'memberDashboard.html' file which is rendered.
      */
 
     public static void index() {
@@ -69,7 +69,7 @@ public class Dashboard extends Controller {
         }
 
 
-        render("dashboard.html", member, assessments, bmi, bmiCategory, isIdealWeight, assessmentWeights);
+        render("memberDashboard.html", member, assessments, bmi, bmiCategory, isIdealWeight, assessmentWeights);
     }
 
     /**

@@ -1,9 +1,24 @@
+<!--
+
+The 'trainerViewMember' view allows trainers to see all assessments for a given member.
+
+It is from this view that trainers can add comments for individual assessments.
+
+-->
+
 #{extends 'main.html' /}
-#{set title:'Dashboard' /}
+#{set title:'Trainer Dashboard' /}
 
 #{trainerMenu id:"dashboard"/}
 
+<!-- Header component which displays the member name, BMI, BMI category and if they are at the ideal weight or not  -->
+
 #{dashboardMemberHeaderDetails member:member, bmi:bmi, bmiCategory:bmiCategory, isIdealWeight:isIdealWeight/}
+
+<!--
+The listAssessmentsTrainerView component lists all assessments for the member. Trainers can add
+comments for any assessment.
+-->
 
 #{listAssessmentsTrainerView assessments:assessments, member:member /}
 

@@ -1,14 +1,18 @@
+<!--
+The 'about page is used to provide a brief description of the application.
+-->
+
 #{extends 'main.html' /}
 #{set title:'About' /}
 
-#{menu id:"about"/}
+#{memberMenu id:"about"/}
 
 <section class="ui center aligned middle aligned segment">
 
     <div class="ui two column stackable center aligned grid">
-
+        <!--Start of row-->
         <div class="row">
-
+            <!--Start of column-->
             <div class="column" style="display: flex; justify-content: center; align-items: center;">
                 <div>
 
@@ -21,13 +25,17 @@
                 </div>
 
             </div>
+            <!--End of column-->
 
+            <!--Start of column-->
             <div class="column">
                 <div class="ui fluid image">
                     <img src="/public/images/seticon.png">
                 </div>
             </div>
+            <!--End of colunm-->
         </div>
+        <!--End of row-->
     </div>
 
 
