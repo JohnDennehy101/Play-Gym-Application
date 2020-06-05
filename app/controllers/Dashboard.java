@@ -49,7 +49,7 @@ public class Dashboard extends Controller {
 
 
         if (assessments.size() > 0) {
-            Assessments assessment = assessments.get((assessments.size() - 1));
+            Assessments assessment = assessments.get(0);
             bmi = GymUtility.calculateBMI(member, assessment);
             bmiCategory = GymUtility.determineBMICategory(bmi);
             isIdealWeight = GymUtility.isIdealBodyWeight(member, assessment);
@@ -96,7 +96,6 @@ public class Dashboard extends Controller {
 
     public static void addAssessment(double weight, double chest, double thigh, double upperArm, double waist, double hips, String comment) {
         Member member = Accounts.getLoggedInMember();
-
         Date currentTime = new Date();
 
         SimpleDateFormat timestampFormat = new SimpleDateFormat("dd-MMMM-yyyy hh:mm:ss");
@@ -104,8 +103,7 @@ public class Dashboard extends Controller {
         Assessments assessment = new Assessments(weight, chest, thigh, upperArm, waist, hips, comment, timestamp);
 
         member.assessments.add(0, assessment);
-        GymUtility.calculateBMI(member, assessment);
-        GymUtility.isIdealBodyWeight(member, assessment);
+
         member.save();
         Logger.info("Adding Assessment for: " + member.name);
         redirect("/dashboard");

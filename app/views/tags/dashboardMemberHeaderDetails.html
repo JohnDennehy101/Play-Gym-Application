@@ -1,0 +1,65 @@
+<section class="ui raised segment">
+        <div class="ui four column stackable center aligned grid">
+
+            <div class="middle aligned row">
+                <!--Start of Column-->
+                <div class="column">
+                    <div class="ui icon header">
+                        <i class="user icon"></i>
+                    ${_member.name}
+                    </div>
+
+                </div>
+                <!--End of Column-->
+
+                <!--Start of Column-->
+                <div class="column">
+                    <div class="ui icon header">
+                    #{if _isIdealWeight == true}
+                        <i class="tachometer alternate icon" style="color: green;"></i>
+                        <p class="ui big text">IDEAL WEIGHT</p>
+                    #{/if}
+                    #{elseif _isIdealWeight == false}
+                        <i class="tachometer alternate icon" style="color: red;"></i>
+                        <p class="ui big text">NOT IDEAL WEIGHT</p>
+                    #{/elseif}
+
+                    </div>
+
+                </div>
+                <!--End of Column-->
+                <div class="column">
+
+                    <div class="ui items">
+                        <div class="item">
+                            <div class="middle aligned content">
+                                <div class="header">
+                                    <i class="big heartbeat icon" style="margin-bottom: 10px;"></i>
+
+                                    <span class="ui big text">${_bmi}</span>
+
+                                    <p class="ui big text" style="padding-left: 25px;">BMI</p>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Start of Column-->
+                <div class="column">
+                    <div class="ui icon header">
+                        <i class="user md icon"></i>
+                    ${_bmiCategory}
+
+                    </div>
+
+                </div>
+                <!--End of Column-->
+            </div>
+        </div>
+    </section>
